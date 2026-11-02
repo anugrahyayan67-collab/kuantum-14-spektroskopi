@@ -61,7 +61,7 @@ export const Hook: React.FC = () => {
   const lost = ramp(t, wordOf(1, 'hilang') - 0.2, wordOf(1, 'hilang') + 0.8);
   const scope = ramp(t, cue(1) - 0.2, cue(1) + 0.8);
   const scopeLit = ramp(t, wordOf(2, 'Webb') - 0.3, wordOf(2, 'Webb') + 0.6);
-  const strip = ramp(t, wordOf(1, 'warnanya') - 0.2, cue(1) + 3.6, EASE_IN_OUT);
+  const strip = ramp(t, wordOf(1, 'warnanya') - 0.2, Math.max(cue(1) + 3.6, wordOf(1, 'warnanya') + 1.6), EASE_IN_OUT);
   const gapD = ramp(t, wordOf(1, 'hilang') - 0.1, wordOf(1, 'hilang') + 1.2);
   const gapPulse = ramp(t, wordOf(2, 'celah') - 0.2, wordOf(2, 'celah') + 0.4) * (1 - ramp(t, wordOf(2, 'celah') + 0.8, wordOf(2, 'celah') + 1.6));
   const co2Tag = ramp(t, wordOf(2, 'karbon') - 0.2, wordOf(2, 'karbon') + 0.5, BACK);
