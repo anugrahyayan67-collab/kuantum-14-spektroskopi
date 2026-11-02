@@ -2,21 +2,12 @@ import React from 'react';
 import {AbsoluteFill} from 'remotion';
 import {EASE_IN_OUT, cyc, rand, ramp} from '../anim';
 import {Glow, Stage} from '../components/primitives';
-import {type Cam, Render3D, VbDefs} from '../components/vbC';
-import {PGBadge, axis3, bf3, molItems3, plane3, water} from '../components/syD';
+import {Render3D, VbDefs} from '../components/vbC';
+import {co2, co2Mode, molItems3, vibrate} from '../components/syD';
+import {LineStrip, camAt, coMol, spinY} from '../components/spD';
+import {wlColor} from '../components/viz';
 import {useScene} from '../SceneContext';
 import {C, FONT} from '../theme';
-
-const PGS: [string, string][] = [
-  ['C', '2v'],
-  ['D', '3h'],
-  ['T', 'd'],
-  ['O', 'h'],
-  ['C', '3v'],
-  ['D', '6h'],
-  ['I', 'h'],
-  ['D', '∞h'],
-];
 
 const REFS = [
   'RPS Kimia Kuantum S1 Kimia UNESA — pertemuan 14: spektroskopi molekul (translasi, rotasi, vibrasi)',
@@ -40,40 +31,20 @@ export const Outro: React.FC = () => {
       <Stage>
         <Glow x={960} y={300} r={500} color="violet" opacity={0.15} />
         <VbDefs />
-        {/* hiasan simetri: H₂O dengan C₂ & σv, BF₃ dengan C₃ & σh, lencana grup titik melayang */}
+        {/* hiasan spektroskopi: CO berputar, CO₂ bergetar, garis spektrum rotasi & cabang P/R */}
         <g opacity={waves}>
-          {(() => {
-            const camW: Cam = {cx: 230, cy: 290, s: 112, yaw: 0.3 + 0.6 * Math.sin(t * 0.3), pitch: -0.15, persp: 9};
-            const camB: Cam = {cx: 1680, cy: 290, s: 92, yaw: t * 0.35, pitch: -0.55, persp: 9};
-            return (
-              <>
-                <Glow x={230} y={290} r={220} color="red" opacity={0.12} />
-                <Glow x={1690} y={290} r={220} color="mint" opacity={0.1} />
-                <Render3D
-                  items={[
-                    plane3(camW, {c: [0, 0, 0.15], u: [1, 0, 0], v: [0, 0, 1], w: 1.3, h: 1.2, opacity: 0.8}),
-                    plane3(camW, {c: [0, 0, 0.15], u: [0, 1, 0], v: [0, 0, 1], w: 1.0, h: 1.2, opacity: 0.6}),
-                    axis3(camW, {a: [0, 0, -1.2], b: [0, 0, 1.45], t, label: 'C2'}),
-                    ...molItems3(camW, water(), {labels: false}),
-                  ]}
-                />
-                <Render3D
-                  items={[
-                    plane3(camB, {c: [0, 0, 0], u: [1, 0, 0], v: [0, 1, 0], w: 1.55, h: 1.55, opacity: 0.8, depth: 1.5}),
-                    axis3(camB, {a: [0, 0, -1.3], b: [0, 0, 1.5], t, label: 'C3'}),
-                    ...molItems3(camB, bf3(), {labels: false}),
-                  ]}
-                />
-              </>
-            );
-          })()}
-          {Array.from({length: 10}, (_, k) => {
-            const ph = ((t * (0.035 + 0.02 * rand(k)) + rand(k * 3.1)) % 1 + 1) % 1;
-            const x = 140 + ph * 1640 + 40 * rand(k * 5.1);
-            const y = 740 + 130 * rand(k * 7.3) + 12 * Math.sin(t * 0.7 + k);
-            const op = 0.7 * cyc(ph);
-            const pg = PGS[k % PGS.length];
-            return <PGBadge key={k} x={x} y={y} main={pg[0]} sub={pg[1]} r={34} color={k % 2 ? C.gold : C.cyan} opacity={op} rot={10 * Math.sin(t * 0.5 + k)} />;
+          <Glow x={200} y={950} r={170} color="cyan" opacity={0.14} />
+          <Glow x={1720} y={950} r={170} color="gold" opacity={0.12} />
+          <Render3D items={molItems3(camAt(200, 946, 52, 0.25, -0.15, 9), spinY(coMol(), t * 1.3), {labels: false})} />
+          <Render3D items={molItems3(camAt(1720, 946, 44, 0.35 + 0.2 * Math.sin(t * 0.4), -0.25, 9), vibrate(co2(), co2Mode('asym'), 0.13, t * 7), {labels: false})} />
+          <LineStrip x={360} y={904} w={560} h={84} t={t} color={C.cyan} n={20} />
+          <LineStrip x={1000} y={904} w={560} h={84} t={t + 1} color={C.amber} n={20} gap />
+          {Array.from({length: 12}, (_, k) => {
+            const ph = ((t * (0.03 + 0.015 * rand(k)) + rand(k * 3.1)) % 1 + 1) % 1;
+            const x = 120 + rand(k * 5.1) * 1680;
+            const y = 860 - ph * 760;
+            const nm = 420 + rand(k * 7.3) * 260;
+            return <rect key={k} x={x} y={y} width={4} height={34} rx={2} fill={wlColor(nm)} opacity={0.22 * cyc(ph)} />;
           })}
         </g>
       </Stage>
@@ -91,7 +62,7 @@ export const Outro: React.FC = () => {
             ))}
           </div>
           <div style={{marginTop: 20, fontFamily: FONT.sans, fontSize: 22, color: C.muted, opacity: 0.8}}>
-            Angka dari buku teks & NIST · spektrum & tingkat energi skematis kecuali angka yang disebut · nilai ukur ditandai “≈” · nilai ukur ditandai “≈” · ilustrasi orbital skematis
+            Angka dari buku teks & NIST · spektrum & tingkat energi skematis kecuali angka yang disebut · nilai ukur ditandai “≈”
           </div>
         </div>
       </AbsoluteFill>
