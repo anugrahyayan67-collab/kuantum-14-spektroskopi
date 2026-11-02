@@ -105,8 +105,8 @@ export const Exoplanet: React.FC = () => {
             {[-1, 1].map((s) => (
               <path key={s} d={wavePath(P + 18, PY + s * (PR + 8), 1010, 470 + s * 40, 26, t * 9, (u) => 6 * Math.min(1, u * 8))} fill="none" stroke={s < 0 ? IR_COL : C.amber} strokeWidth={2.5} opacity={0.75} />
             ))}
-            <line x1={P} y1={PY - PR - 14} x2={P + 70} y2={PY - PR - 80} stroke={C.cyan} strokeWidth={2} opacity={0.8} />
-            <Label x={P + 78} y={PY - PR - 96} size={26} anchor="start" color={C.cyan}>
+            <line x1={P} y1={PY - PR - 14} x2={P + 70} y2={PY - PR - 80} stroke={C.cyan} strokeWidth={2} opacity={0.8 * (1 - ramp(P, 560, 660, EASE_IN_OUT))} />
+            <Label x={P + 78} y={PY - PR - 96} size={26} anchor="start" color={C.cyan} opacity={1 - ramp(P, 560, 660, EASE_IN_OUT)}>
               atmosfer (skematis)
             </Label>
           </g>

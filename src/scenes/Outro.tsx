@@ -15,7 +15,7 @@ const REFS = [
   'C. N. Banwell & E. M. McCash, Fundamentals of Molecular Spectroscopy',
   'NIST: CO B ≈ 1,93 cm⁻¹ (r ≈ 113 pm); HCl pusat pita ≈ 2886 cm⁻¹; kT (298 K) ≈ 207 cm⁻¹',
   'C. V. Raman — Nobel Fisika 1930 (efek Raman, 1928) · nobelprize.org',
-  'CO J = 1→0 ≈ 115,27 GHz (astronomi radio) · > 200 molekul antarbintang (CDMS)',
+  'CO J = 1→0 ≈ 115,27 GHz (astronomi radio) · ≈ 350 molekul antarbintang (CDMS)',
   'JWST ERS Transiting Exoplanet Team, Nature 614, 649 (2023) — CO₂ di WASP-39b (≈ 4,3 µm)',
   'Alat uji napas inframerah: serapan C–H etanol ≈ 3,4 µm (hukum Lambert–Beer)',
 ];

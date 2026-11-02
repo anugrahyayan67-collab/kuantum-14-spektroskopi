@@ -274,7 +274,7 @@ export const Recap: React.FC = () => {
   const fin = ramp(t, cue(6) - 0.4, cue(6) + 0.6);
   const thanks = ramp(t, wordOf(6, 'Terima') - 0.3, wordOf(6, 'Terima') + 0.5);
   const strip = (k: number) => ramp(t, cue(6) + 0.3 + k * 0.22, cue(6) + 0.9 + k * 0.22, BACK);
-  const grid = 1 - 0.8 * fin;
+  const grid = 1 - 0.9 * fin;
   const out = 1 - ramp(t, dur - 0.9, dur - 0.1, EASE_IN_OUT);
   return (
     <AbsoluteFill style={{opacity: out}}>
@@ -340,7 +340,7 @@ export const Recap: React.FC = () => {
               top: b.y,
               width: CW - (left - b.x) - 26,
               transform: `translate(${(1 - lit[i]) * -24}px, -50%)`,
-              opacity: lit[i] * intro * (0.6 + 0.4 * cur(i)) * grid,
+              opacity: lit[i] * intro * (0.6 + 0.4 * cur(i)) * (1 - ramp(t, cue(6) - 0.4, cue(6) + 0.3, EASE_IN_OUT)),
             }}
           >
             <div style={{fontFamily: FONT.sans, fontSize: big ? 40 : 34, fontWeight: 700, color: r.col, lineHeight: 1.15}}>{r.title}</div>

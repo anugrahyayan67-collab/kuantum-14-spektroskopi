@@ -132,13 +132,13 @@ export const Selection: React.FC = () => {
         ))}
 
         {/* L0: dua jenis aturan */}
-        <g opacity={chipK} transform={`translate(620 215) scale(${0.85 + 0.15 * chipK})`}>
+        <g opacity={chipK} transform={`translate(620 232) scale(${0.85 + 0.15 * chipK})`}>
           <rect x={-250} y={-34} width={500} height={68} rx={34} fill="rgba(79,214,255,0.10)" stroke={C.cyan} strokeWidth={2} />
           <Label x={0} y={0} size={28} color={C.cyan} weight={600}>
             kasar: boleh menyerap atau tidak?
           </Label>
         </g>
-        <g opacity={chipH} transform={`translate(1300 215) scale(${0.85 + 0.15 * chipH})`}>
+        <g opacity={chipH} transform={`translate(1300 232) scale(${0.85 + 0.15 * chipH})`}>
           <rect x={-230} y={-34} width={460} height={68} rx={34} fill="rgba(255,194,74,0.10)" stroke={C.gold} strokeWidth={2} />
           <Label x={0} y={0} size={28} color={C.gold} weight={600}>
             halus: berapa langkah?

@@ -370,7 +370,7 @@ export const Electronic: React.FC = () => {
         </g>
       </Stage>
 
-      <Formula x={1440} y={262} p={card2 * diagOut} accent={C.violet} caption="lompatan elektron ≫ gerak inti">
+      <Formula x={1440} y={212} p={card2 * diagOut} accent={C.violet} caption="lompatan elektron ≫ gerak inti">
         transisi tegak: <V>R</V>
         <Sub>sebelum</Sub> = <V>R</V>
         <Sub>sesudah</Sub>

@@ -271,8 +271,8 @@ export const Raman: React.FC = () => {
                     μ tetap 0
                   </Label>
                   <g opacity={ok}>
-                    <Tick x={P.cx + 230} y={600} ok p={ok} />
-                    <Label x={P.cx + 180} y={600} size={24} anchor="end" color={C.mint} weight={700}>
+                    <Tick x={P.cx + 200} y={238} ok p={ok} />
+                    <Label x={P.cx + 172} y={238} size={24} anchor="end" color={C.mint} weight={700}>
                       aktif Raman
                     </Label>
                   </g>
