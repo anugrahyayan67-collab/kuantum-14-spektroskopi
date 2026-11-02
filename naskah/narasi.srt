@@ -1,0 +1,291 @@
+1
+00:00:01,600 --> 00:00:08,726
+Sekitar tujuh ratus tahun cahaya dari Bumi, sebuah planet raksasa melintas di depan bintangnya.
+
+2
+00:00:08,726 --> 00:00:14,343
+Cahaya bintang menembus atmosfer planet itu, dan sebagian warnanya hilang.
+
+3
+00:00:14,343 --> 00:00:21,978
+Dari celah-celah gelap itu, teleskop James Webb membaca: di sana ada karbon dioksida dan uap air.
+
+4
+00:00:21,978 --> 00:00:27,807
+Tanpa pernah ke sana. Hanya dengan membaca cahaya yang diserap molekul.
+
+5
+00:00:27,807 --> 00:00:37,474
+Setiap molekul menari dengan tiga cara: bergerak, berputar, dan bergetar. Dan setiap tarian punya warnanya sendiri.
+
+6
+00:00:46,467 --> 00:00:49,519
+Perjalanan kita punya tiga bagian.
+
+7
+00:00:49,519 --> 00:00:56,611
+Pertama, prinsip dasar: tangga energi tiap gerak, populasi Boltzmann, dan aturan seleksi.
+
+8
+00:00:56,611 --> 00:01:05,035
+Kedua, implementasi dalam kimia: spektrum rotasi, spektrum vibrasi-rotasi, Raman, dan spektrum elektronik.
+
+9
+00:01:05,035 --> 00:01:11,949
+Ketiga, penerapan: alat uji napas, astronomi radio, dan atmosfer planet lain.
+
+10
+00:01:14,533 --> 00:01:20,716
+Molekul menyimpan energi dalam beberapa cara, dan semuanya terkuantisasi.
+
+11
+00:01:20,716 --> 00:01:31,027
+Translasi: bergerak dari tempat ke tempat. Di ruang bebas tingkatnya sangat rapat, hampir kontinu, seperti partikel dalam kotak yang sangat besar.
+
+12
+00:01:31,027 --> 00:01:38,873
+Rotasi: berputar. Celah antartingkat sekitar seperseribu elektronvolt, cocok dengan gelombang mikro.
+
+13
+00:01:38,873 --> 00:01:45,965
+Vibrasi: bergetar. Celahnya sekitar sepersepuluh elektronvolt, cocok dengan inframerah.
+
+14
+00:01:45,965 --> 00:01:55,521
+Elektronik: elektron melompat antarorbital. Celahnya beberapa elektronvolt, cocok dengan cahaya tampak dan ultraviolet.
+
+15
+00:01:58,133 --> 00:02:02,607
+Bayangkan spektrum elektromagnetik sebagai penggaris raksasa.
+
+16
+00:02:02,607 --> 00:02:07,778
+Di ujung panjang ada gelombang mikro: molekul berputar menyerapnya.
+
+17
+00:02:07,778 --> 00:02:15,613
+Di tengah ada inframerah: ikatan bergetar menyerapnya. Inilah dasar video sidik jari molekul.
+
+18
+00:02:15,613 --> 00:02:23,625
+Di ujung pendek ada cahaya tampak dan ultraviolet: elektron melompat, memberi warna pada pewarna dan daun.
+
+19
+00:02:23,625 --> 00:02:31,907
+Satuan favorit ahli spektroskopi adalah bilangan gelombang, per sentimeter, yang sebanding langsung dengan energi.
+
+20
+00:02:34,500 --> 00:02:42,392
+Molekul tidak semuanya berada di tingkat terendah. Panas mendistribusikan mereka ke tingkat-tingkat atas.
+
+21
+00:02:42,392 --> 00:02:49,450
+Perbandingan populasi mengikuti faktor Boltzmann: e pangkat minus selisih energi dibagi k T.
+
+22
+00:02:49,450 --> 00:02:54,124
+Pada suhu kamar, k T sekitar dua ratus per sentimeter.
+
+23
+00:02:54,124 --> 00:03:00,684
+Tingkat rotasi jauh lebih kecil dari itu, jadi banyak tingkat rotasi terisi sekaligus.
+
+24
+00:03:00,684 --> 00:03:08,388
+Tingkat vibrasi biasanya jauh lebih besar, jadi hampir semua molekul berada di tingkat vibrasi dasar.
+
+25
+00:03:11,000 --> 00:03:18,138
+Tidak semua molekul menyerap setiap jenis cahaya. Ada aturan seleksi kasar dan halus.
+
+26
+00:03:18,138 --> 00:03:27,871
+Untuk spektrum rotasi gelombang mikro, molekul harus punya momen dipol permanen. H Cl dan CO bisa; N dua dan CO dua tidak.
+
+27
+00:03:27,871 --> 00:03:35,952
+Untuk spektrum vibrasi inframerah, getarannya harus mengubah momen dipol, seperti yang kita ramal dengan simetri.
+
+28
+00:03:35,952 --> 00:03:43,965
+Aturan halusnya: delta J plus minus satu untuk rotasi, dan delta v plus minus satu untuk vibrasi harmonik.
+
+29
+00:03:43,965 --> 00:03:51,857
+Foton membawa satu satuan momentum sudut, jadi rotasi molekul hanya bisa naik atau turun satu langkah.
+
+30
+00:03:54,467 --> 00:04:01,227
+Molekul diatomik berputar seperti barbel. Energinya B kali J kali J tambah satu.
+
+31
+00:04:01,227 --> 00:04:07,421
+Karena delta J plus minus satu, garis-garis serapannya berjarak sama, dua B.
+
+32
+00:04:07,421 --> 00:04:17,201
+Untuk karbon monoksida, B sekitar satu koma sembilan tiga per sentimeter, jadi garisnya berjarak sekitar tiga koma delapan enam.
+
+33
+00:04:17,201 --> 00:04:26,545
+Dari B kita mendapat momen inersia, dan dari momen inersia, panjang ikatan: sekitar seratus tiga belas pikometer.
+
+34
+00:04:26,545 --> 00:04:33,683
+Tinggi garis naik lalu turun, mengikuti populasi Boltzmann dan degenerasi dua J tambah satu.
+
+35
+00:04:36,267 --> 00:04:42,827
+Saat molekul menyerap foton inframerah, ia biasanya juga berganti tingkat rotasi.
+
+36
+00:04:42,827 --> 00:04:53,538
+Spektrum H Cl gas tidak berupa satu garis, melainkan dua sayap garis-garis halus di sekitar dua ribu delapan ratus delapan puluh enam per sentimeter.
+
+37
+00:04:53,538 --> 00:05:01,127
+Cabang R di sisi energi tinggi: J naik satu. Cabang P di sisi energi rendah: J turun satu.
+
+38
+00:05:01,127 --> 00:05:07,876
+Di tengahnya ada celah kosong, karena delta J sama dengan nol tidak diizinkan untuk H Cl.
+
+39
+00:05:07,876 --> 00:05:18,753
+Perbesar setiap garis: ternyata kembar. Klorin tiga puluh lima dan tiga puluh tujuh punya massa berbeda, jadi frekuensinya sedikit bergeser.
+
+40
+00:05:21,367 --> 00:05:28,424
+Ada cara lain melihat rotasi dan vibrasi: menembakkan laser dan menangkap cahaya yang terhambur.
+
+41
+00:05:28,424 --> 00:05:38,015
+Sebagian kecil cahaya terhambur dengan energi sedikit berbeda. Selisihnya sama dengan energi rotasi atau vibrasi molekul.
+
+42
+00:05:38,015 --> 00:05:49,526
+Efek ini ditemukan C. V. Raman tahun seribu sembilan ratus dua puluh delapan, dan diganjar Nobel Fisika tahun seribu sembilan ratus tiga puluh.
+
+43
+00:05:49,526 --> 00:05:59,506
+Syaratnya bukan dipol, melainkan perubahan polarisabilitas. Karena itu N dua dan regangan simetris CO dua terlihat di Raman.
+
+44
+00:05:59,506 --> 00:06:07,398
+Inframerah dan Raman saling melengkapi, persis seperti aturan saling meniadakan dari video simetri.
+
+45
+00:06:10,000 --> 00:06:17,126
+Saat elektron melompat ke orbital yang lebih tinggi, molekul juga bisa mulai bergetar dan berputar.
+
+46
+00:06:17,126 --> 00:06:26,162
+Lompatan elektron terjadi sangat cepat, jauh lebih cepat daripada inti bergerak. Inti seolah membeku selama lompatan.
+
+47
+00:06:26,162 --> 00:06:33,220
+Ini prinsip Franck–Condon: transisi digambar sebagai garis tegak pada diagram energi potensial.
+
+48
+00:06:33,220 --> 00:06:42,233
+Garis tegak itu mendarat di beberapa tingkat vibrasi keadaan atas, sehingga pita serapan punya deretan puncak vibrasi.
+
+49
+00:06:42,233 --> 00:06:51,389
+Dalam larutan, puncak-puncak ini melebur menjadi pita lebar: spektrum UV–Vis yang dipakai di laboratorium sehari-hari.
+
+50
+00:06:54,000 --> 00:07:02,470
+Bagaimana dengan translasi? Di dalam wadah biasa, tingkat energinya terlalu rapat untuk terlihat sebagai garis.
+
+51
+00:07:02,470 --> 00:07:06,886
+Tetapi translasi tetap meninggalkan jejak: efek Doppler.
+
+52
+00:07:06,886 --> 00:07:15,465
+Molekul yang bergerak menuju detektor tampak menyerap frekuensi sedikit lebih tinggi; yang menjauh, sedikit lebih rendah.
+
+53
+00:07:15,465 --> 00:07:24,700
+Karena gas berisi molekul dengan kecepatan berbeda-beda, setiap garis melebar. Makin panas gas, makin lebar garisnya.
+
+54
+00:07:24,700 --> 00:07:35,257
+Bila molekul dikurung di ruang sangat sempit, seperti elektron di titik kuantum, tingkat translasi kembali terpisah, seperti partikel dalam kotak.
+
+55
+00:07:37,867 --> 00:07:42,529
+Spektroskopi inframerah bekerja diam-diam di sekitar kita.
+
+56
+00:07:42,529 --> 00:07:48,889
+Alat uji napas alkohol jenis inframerah menembakkan cahaya melalui sampel napas.
+
+57
+00:07:48,889 --> 00:07:57,925
+Ikatan C–H etanol menyerap di sekitar tiga koma empat mikrometer. Makin banyak etanol, makin banyak cahaya yang hilang.
+
+58
+00:07:57,925 --> 00:08:06,750
+Hubungan antara serapan dan konsentrasi mengikuti hukum Lambert–Beer, hukum yang sama di spektrofotometer laboratorium.
+
+59
+00:08:09,333 --> 00:08:16,648
+Awan gas dingin di antara bintang sebagian besar berupa hidrogen molekular, yang hampir tak terlihat.
+
+60
+00:08:16,648 --> 00:08:24,896
+Tetapi karbon monoksida yang ikut tercampur berputar dan memancarkan garis rotasi pada seratus lima belas gigahertz.
+
+61
+00:08:24,896 --> 00:08:31,256
+Teleskop radio memetakan garis itu untuk melihat di mana bintang-bintang baru lahir.
+
+62
+00:08:31,256 --> 00:08:40,481
+Dengan cara serupa, lebih dari dua ratus jenis molekul telah ditemukan di ruang antarbintang, termasuk molekul organik.
+
+63
+00:08:43,067 --> 00:08:50,593
+Kembali ke planet jauh itu. Saat planet melintas, cahaya bintang menembus lapisan tipis atmosfernya.
+
+64
+00:08:50,593 --> 00:09:01,624
+Molekul di sana menyerap pada panjang gelombang khasnya: karbon dioksida di sekitar empat koma tiga mikrometer, uap air di beberapa pita inframerah.
+
+65
+00:09:01,624 --> 00:09:12,336
+Pada tahun dua ribu dua puluh dua, teleskop James Webb mendeteksi karbon dioksida dengan jelas di atmosfer planet WASP tiga puluh sembilan b.
+
+66
+00:09:12,336 --> 00:09:21,792
+Tangga energi yang sama, aturan seleksi yang sama, simetri yang sama: dari laboratorium kampus sampai planet di bintang lain.
+
+67
+00:09:24,200 --> 00:09:25,555
+Mari rangkum.
+
+68
+00:09:25,555 --> 00:09:34,733
+Molekul punya empat tangga energi: translasi, rotasi, vibrasi, dan elektronik, dari yang paling rapat sampai paling renggang.
+
+69
+00:09:34,733 --> 00:09:43,569
+Gelombang mikro menggerakkan rotasi, inframerah menggerakkan vibrasi, cahaya tampak dan ultraviolet menggerakkan elektron.
+
+70
+00:09:43,569 --> 00:09:51,450
+Faktor Boltzmann menentukan tingkat mana yang terisi, dan aturan seleksi menentukan lompatan mana yang diizinkan.
+
+71
+00:09:51,450 --> 00:09:57,467
+Cabang P dan R, isotop, Raman, dan Franck–Condon semuanya terbaca dari spektrum.
+
+72
+00:09:57,467 --> 00:10:03,095
+Dengan itu kita membaca napas, awan antarbintang, dan atmosfer planet lain.
+
+73
+00:10:03,095 --> 00:10:11,477
+Ini akhir perjalanan kimia kuantum semester ini. Terima kasih sudah ikut menari bersama molekul.

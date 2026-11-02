@@ -1,0 +1,20 @@
+// id adegan → nama berkas komponen (untuk scripts/check-cues.ts)
+export const SCENES_FILE: Record<string, string> = {
+  hook: 'Hook',
+  title: 'Title',
+  roadmap: 'Roadmap',
+  ladders: 'Ladders',
+  ruler: 'Ruler',
+  boltzmann: 'Boltzmann',
+  selection: 'Selection',
+  rotation: 'Rotation',
+  rovib: 'Rovib',
+  raman: 'Raman',
+  electronic: 'Electronic',
+  translation: 'Translation',
+  breath: 'Breath',
+  radio: 'Radio',
+  exoplanet: 'Exoplanet',
+  recap: 'Recap',
+  outro: 'Outro',
+};
