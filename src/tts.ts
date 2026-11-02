@@ -132,7 +132,6 @@ const WORD: Record<string, string> = {
   HOMO: 'homo',
   Hückel: 'Hukel',
   Raman: 'Raman',
-  Boltzmann: 'Bolsman',
   Franck: 'Frank',
   Condon: 'Kondon',
   Webb: 'Web',
