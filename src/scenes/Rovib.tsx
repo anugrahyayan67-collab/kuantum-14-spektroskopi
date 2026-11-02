@@ -184,7 +184,7 @@ export const Rovib: React.FC = () => {
             return (
               <g key={`R${J}`}>
                 <line x1={x} y1={y0(J) + 4} x2={x} y2={SY - (pop(J) / PMAX) * SH - 8} stroke={RCOL} strokeWidth={1.5} strokeDasharray="3 6" opacity={0.5 * p} />
-                <Vec x1={x} y1={y0(J) - 2} x2={x} y2={mix(y0(J) - 2, y1(J + 1) + 2, p)} color={RCOL} width={4} head={13} halo={false} opacity={p > 0 ? 1 : 0} />
+                <Vec x1={x} y1={y0(J) - 2} x2={x} y2={mix(y0(J) - 2, y1(J + 1) + 2, p)} color={RCOL} width={4} head={13} halo={false} opacity={Math.min(1, p * 5)} />
               </g>
             );
           })}
@@ -195,7 +195,7 @@ export const Rovib: React.FC = () => {
             return (
               <g key={`P${J}`}>
                 <line x1={x} y1={y0(J) + 4} x2={x} y2={SY - (pop(J) / PMAX) * SH - 8} stroke={PCOL} strokeWidth={1.5} strokeDasharray="3 6" opacity={0.5 * p} />
-                <Vec x1={x} y1={y0(J) - 2} x2={x} y2={mix(y0(J) - 2, y1(J - 1) + 2, p)} color={PCOL} width={4} head={13} halo={false} opacity={p > 0 ? 1 : 0} />
+                <Vec x1={x} y1={y0(J) - 2} x2={x} y2={mix(y0(J) - 2, y1(J - 1) + 2, p)} color={PCOL} width={4} head={13} halo={false} opacity={Math.min(1, p * 5)} />
               </g>
             );
           })}
@@ -218,7 +218,7 @@ export const Rovib: React.FC = () => {
 
         {/* ===== spektrum ===== */}
         <LineSpectrum x={SX} y={SY} w={SW} h={SH} nu0={NA} nu1={NB} lines={base} ticks={[2650, 2750, 2850, 2950, 3050]} t={t} opacity={pSpec} />
-        <LineSpectrum x={SX} y={SY} w={SW} h={SH} nu0={NA} nu1={NB} lines={tint} t={t} opacity={pSpec * Math.max(pRt, pPt)} />
+        <LineSpectrum x={SX} y={SY} w={SW} h={SH} nu0={NA} nu1={NB} lines={tint} t={t} opacity={pSpec * Math.max(pRt, pPt)} bare />
         <g opacity={pSpec}>
           <RichText x={SX + SW} y={SY - SH - 14} segs={['HCl gas · cm', ['−1', 'sup']]} size={21} anchor="end" color={C.muted} weight={500} />
           {/* satu garis (yang tidak terjadi) */}

@@ -185,13 +185,15 @@ export const LineSpectrum: React.FC<{
   tickOp?: number;
   t: number;
   opacity?: number;
-}> = ({x, y, w, h, nu0, nu1, lines, ticks = [], tickOp = 1, t, opacity = 1}) => {
+  /** tanpa panel & sumbu (untuk lapisan garis tambahan di atas spektrum yang sama) */
+  bare?: boolean;
+}> = ({x, y, w, h, nu0, nu1, lines, ticks = [], tickOp = 1, t, opacity = 1, bare = false}) => {
   if (opacity <= 0.003) return null;
   const X = (nu: number) => x + ((nu - nu0) / (nu1 - nu0)) * w;
   return (
     <g opacity={opacity}>
-      <rect x={x - 24} y={y - h - 40} width={w + 48} height={h + 40 + 52} rx={16} fill="rgba(8,12,28,0.62)" stroke={C.faint} strokeWidth={1.5} />
-      <line x1={x - 8} y1={y} x2={x + w + 8} y2={y} stroke={C.muted} strokeWidth={2} />
+      {bare ? null : <rect x={x - 24} y={y - h - 40} width={w + 48} height={h + 40 + 52} rx={16} fill="rgba(8,12,28,0.62)" stroke={C.faint} strokeWidth={1.5} />}
+      {bare ? null : <line x1={x - 8} y1={y} x2={x + w + 8} y2={y} stroke={C.muted} strokeWidth={2} />}
       <g opacity={tickOp}>
         {ticks.map((tk) => (
           <g key={tk}>
