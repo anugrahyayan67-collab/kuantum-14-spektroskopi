@@ -10,7 +10,7 @@ import {useScene} from '../SceneContext';
 import {C, FONT} from '../theme';
 
 // Bab 11: awan molekular gelap (H₂ tak terlihat) → CO berputar memancarkan garis ≈ 115 GHz →
-// teleskop radio memetakan awan, bintang baru menyala di gumpalan padat → > 200 molekul antarbintang.
+// teleskop radio memetakan awan, bintang baru menyala di gumpalan padat → ≈ 350 molekul antarbintang (CDMS).
 
 const BLOBS: [number, number, number, number][] = [
   [760, 470, 230, 1],
@@ -77,8 +77,8 @@ export const Radio: React.FC = () => {
   const dish = ramp(t, cue(2) - 0.5, cue(2) + 0.5, BACK);
   const scan = ramp(t, wordOf(2, 'memetakan') - 0.2, wordOf(2, 'memetakan') + 2.6, EASE_IN_OUT);
   const born = (k: number) => ramp(t, wordOf(2, 'lahir') - 0.4 + k * 0.35, wordOf(2, 'lahir') + 0.3 + k * 0.35, BACK);
-  const tick = ramp(t, wordOf(3, 'lebih') - 0.4, wordOf(3, 'lebih') + 0.4, BACK);
-  const count = ramp(t, wordOf(3, 'dua') - 0.3, wordOf(3, 'ratus') + 0.8, EASE_IN_OUT);
+  const tick = ramp(t, wordOf(3, 'tiga') - 0.4, wordOf(3, 'tiga') + 0.4, BACK);
+  const count = ramp(t, wordOf(3, 'tiga') - 0.3, wordOf(3, 'puluh') + 0.8, EASE_IN_OUT);
   const org = ramp(t, wordOf(3, 'organik') - 0.3, wordOf(3, 'organik') + 0.5);
   const out = 1 - ramp(t, dur - 0.9, dur - 0.1, EASE_IN_OUT);
 
@@ -275,8 +275,8 @@ export const Radio: React.FC = () => {
           }}
         >
           <div style={{fontSize: 84, fontWeight: 800, color: C.cyan, lineHeight: 1}}>
-            <span style={{opacity: count ** 3}}>&gt; </span>
-            {Math.round(200 * count)}
+            <span style={{opacity: count ** 3}}>≈ </span>
+            {Math.round(350 * count)}
           </div>
           <div style={{fontSize: 30, marginTop: 6}}>molekul antarbintang</div>
           <div style={{fontSize: 22, marginTop: 4, color: C.muted}}>terdeteksi lewat garis spektrumnya</div>

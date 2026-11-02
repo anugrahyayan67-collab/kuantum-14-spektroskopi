@@ -627,9 +627,9 @@ export const SCRIPT: SceneScript[] = [
         "pause": 0.7
       },
       {
-        "text": "Dengan cara serupa, lebih dari dua ratus jenis molekul telah ditemukan di ruang antarbintang, termasuk molekul organik.",
+        "text": "Dengan cara serupa, sekitar tiga ratus lima puluh jenis molekul telah ditemukan di ruang antarbintang, termasuk molekul organik.",
         "hl": [
-          "lebih dari dua ratus jenis molekul"
+          "tiga ratus lima puluh jenis molekul"
         ],
         "pause": 0.9
       }

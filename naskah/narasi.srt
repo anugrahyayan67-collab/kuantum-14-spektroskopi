@@ -243,49 +243,49 @@ Tetapi karbon monoksida yang ikut tercampur berputar dan memancarkan garis rotas
 Teleskop radio memetakan garis itu untuk melihat di mana bintang-bintang baru lahir.
 
 62
-00:08:31,256 --> 00:08:40,481
-Dengan cara serupa, lebih dari dua ratus jenis molekul telah ditemukan di ruang antarbintang, termasuk molekul organik.
+00:08:31,256 --> 00:08:41,047
+Dengan cara serupa, sekitar tiga ratus lima puluh jenis molekul telah ditemukan di ruang antarbintang, termasuk molekul organik.
 
 63
-00:08:43,067 --> 00:08:50,593
+00:08:43,633 --> 00:08:51,160
 Kembali ke planet jauh itu. Saat planet melintas, cahaya bintang menembus lapisan tipis atmosfernya.
 
 64
-00:08:50,593 --> 00:09:01,624
+00:08:51,160 --> 00:09:02,191
 Molekul di sana menyerap pada panjang gelombang khasnya: karbon dioksida di sekitar empat koma tiga mikrometer, uap air di beberapa pita inframerah.
 
 65
-00:09:01,624 --> 00:09:12,336
+00:09:02,191 --> 00:09:12,902
 Pada tahun dua ribu dua puluh dua, teleskop James Webb mendeteksi karbon dioksida dengan jelas di atmosfer planet WASP tiga puluh sembilan b.
 
 66
-00:09:12,336 --> 00:09:21,792
+00:09:12,902 --> 00:09:22,358
 Tangga energi yang sama, aturan seleksi yang sama, simetri yang sama: dari laboratorium kampus sampai planet di bintang lain.
 
 67
-00:09:24,200 --> 00:09:25,555
+00:09:24,767 --> 00:09:26,121
 Mari rangkum.
 
 68
-00:09:25,555 --> 00:09:34,733
+00:09:26,121 --> 00:09:35,300
 Molekul punya empat tangga energi: translasi, rotasi, vibrasi, dan elektronik, dari yang paling rapat sampai paling renggang.
 
 69
-00:09:34,733 --> 00:09:43,569
+00:09:35,300 --> 00:09:44,136
 Gelombang mikro menggerakkan rotasi, inframerah menggerakkan vibrasi, cahaya tampak dan ultraviolet menggerakkan elektron.
 
 70
-00:09:43,569 --> 00:09:51,450
+00:09:44,136 --> 00:09:52,017
 Faktor Boltzmann menentukan tingkat mana yang terisi, dan aturan seleksi menentukan lompatan mana yang diizinkan.
 
 71
-00:09:51,450 --> 00:09:57,467
+00:09:52,017 --> 00:09:58,034
 Cabang P dan R, isotop, Raman, dan Franck–Condon semuanya terbaca dari spektrum.
 
 72
-00:09:57,467 --> 00:10:03,095
+00:09:58,034 --> 00:10:03,662
 Dengan itu kita membaca napas, awan antarbintang, dan atmosfer planet lain.
 
 73
-00:10:03,095 --> 00:10:11,477
+00:10:03,662 --> 00:10:12,043
 Ini akhir perjalanan kimia kuantum semester ini. Terima kasih sudah ikut menari bersama molekul.

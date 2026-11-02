@@ -59,7 +59,7 @@ breath-03	Hubungan antara serapan dan konsentrasi mengikuti hukum Lambert Ber, h
 radio-00	Awan gas dingin di antara bintang sebagian besar berupa hidrogen molekular, yang hampir tak terlihat.
 radio-01	Tetapi karbon monoksida yang ikut tercampur berputar dan memancarkan garis rotasi pada seratus lima belas gigahertz.
 radio-02	Teleskop radio memetakan garis itu untuk melihat di mana bintang-bintang baru lahir.
-radio-03	Dengan cara serupa, lebih dari dua ratus jenis molekul telah ditemukan di ruang antarbintang, termasuk molekul organik.
+radio-03	Dengan cara serupa, sekitar tiga ratus lima puluh jenis molekul telah ditemukan di ruang antarbintang, termasuk molekul organik.
 exoplanet-00	Kembali ke planet jauh itu. Saat planet melintas, cahaya bintang menembus lapisan tipis atmosfernya.
 exoplanet-01	Molekul di sana menyerap pada panjang gelombang khasnya: karbon dioksida di sekitar empat koma tiga mikrometer, uap air di beberapa pita inframerah.
 exoplanet-02	Pada tahun dua ribu dua puluh dua, teleskop James Webb mendeteksi karbon dioksida dengan jelas di atmosfer planet wosp tiga puluh sembilan be.

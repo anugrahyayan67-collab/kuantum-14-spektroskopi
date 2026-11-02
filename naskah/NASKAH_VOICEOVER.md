@@ -1,6 +1,6 @@
 # Naskah Voice-Over — *Satu Molekul, Tiga Tarian* (Kimia Kuantum: Spektroskopi Molekul)
 
-Durasi total **10:28** (628.9 dtk) · 1045 kata · tempo baca ±5.3 suku kata/detik (±122 kata/menit saat berbicara).
+Durasi total **10:29** (629.4 dtk) · 1046 kata · tempo baca ±5.3 suku kata/detik (±122 kata/menit saat berbicara).
 
 Cara memakai: baca setiap baris tepat pada timecode-nya. Tanda **[jeda x dtk]** adalah ruang hening agar animasi sempat "bernapas". 
 Kata **tebal** adalah kata kunci yang disorot di layar — beri sedikit penekanan. 
@@ -184,38 +184,38 @@ Bila ingin merekam per baris, beri nama file sesuai kode baris (mis. `hook-00.mp
 
 `08:24.8` `radio-02` Teleskop radio memetakan garis itu untuk melihat di mana **bintang-bintang baru lahir.** *[5.7 dtk]* **[jeda 0.7 dtk]**
 
-`08:31.2` `radio-03` Dengan cara serupa, **lebih dari dua ratus jenis molekul** telah ditemukan di ruang antarbintang, termasuk molekul organik. *[8.3 dtk]* **[jeda 0.9 dtk]**
+`08:31.2` `radio-03` Dengan cara serupa, sekitar **tiga ratus lima puluh jenis molekul** telah ditemukan di ruang antarbintang, termasuk molekul organik. *[8.9 dtk]* **[jeda 0.9 dtk]**
 
-## 08:41 — Bab 12 · Atmosfer planet lain
+## 08:42 — Bab 12 · Atmosfer planet lain
 
 *(buka dengan hening 1.2 dtk)*
 
-`08:43.0` `exoplanet-00` Kembali ke planet jauh itu. Saat planet melintas, cahaya bintang menembus **lapisan tipis atmosfernya.** *[6.8 dtk]* **[jeda 0.7 dtk]**
+`08:43.6` `exoplanet-00` Kembali ke planet jauh itu. Saat planet melintas, cahaya bintang menembus **lapisan tipis atmosfernya.** *[6.8 dtk]* **[jeda 0.7 dtk]**
 
-`08:50.5` `exoplanet-01` Molekul di sana menyerap pada panjang gelombang khasnya: karbon dioksida di sekitar **empat koma tiga mikrometer,** uap air di beberapa pita inframerah. *[10.3 dtk]* **[jeda 0.7 dtk]**
+`08:51.1` `exoplanet-01` Molekul di sana menyerap pada panjang gelombang khasnya: karbon dioksida di sekitar **empat koma tiga mikrometer,** uap air di beberapa pita inframerah. *[10.3 dtk]* **[jeda 0.7 dtk]**
 
-`09:01.6` `exoplanet-02` Pada tahun dua ribu dua puluh dua, teleskop James Webb mendeteksi karbon dioksida dengan jelas di atmosfer planet **WASP tiga puluh sembilan b.** *[10.0 dtk]* **[jeda 0.7 dtk]**
+`09:02.1` `exoplanet-02` Pada tahun dua ribu dua puluh dua, teleskop James Webb mendeteksi karbon dioksida dengan jelas di atmosfer planet **WASP tiga puluh sembilan b.** *[10.0 dtk]* **[jeda 0.7 dtk]**
 
-`09:12.3` `exoplanet-03` Tangga energi yang sama, aturan seleksi yang sama, simetri yang sama: **dari laboratorium kampus** sampai planet di bintang lain. *[8.5 dtk]* **[jeda 1.0 dtk]**
+`09:12.9` `exoplanet-03` Tangga energi yang sama, aturan seleksi yang sama, simetri yang sama: **dari laboratorium kampus** sampai planet di bintang lain. *[8.5 dtk]* **[jeda 1.0 dtk]**
 
 ## 09:23 — Bab 13 · Merangkai semuanya
 
 *(buka dengan hening 1.0 dtk)*
 
-`09:24.2` `recap-00` Mari rangkum. *[0.8 dtk]* **[jeda 0.6 dtk]**
+`09:24.7` `recap-00` Mari rangkum. *[0.8 dtk]* **[jeda 0.6 dtk]**
 
-`09:25.5` `recap-01` Molekul punya **empat tangga energi:** translasi, rotasi, vibrasi, dan elektronik, dari yang paling rapat sampai paling renggang. *[8.5 dtk]* **[jeda 0.7 dtk]**
+`09:26.1` `recap-01` Molekul punya **empat tangga energi:** translasi, rotasi, vibrasi, dan elektronik, dari yang paling rapat sampai paling renggang. *[8.5 dtk]* **[jeda 0.7 dtk]**
 
-`09:34.7` `recap-02` **Gelombang mikro** menggerakkan rotasi, inframerah menggerakkan vibrasi, cahaya tampak dan ultraviolet menggerakkan elektron. *[8.1 dtk]* **[jeda 0.7 dtk]**
+`09:35.2` `recap-02` **Gelombang mikro** menggerakkan rotasi, inframerah menggerakkan vibrasi, cahaya tampak dan ultraviolet menggerakkan elektron. *[8.1 dtk]* **[jeda 0.7 dtk]**
 
-`09:43.5` `recap-03` Faktor Boltzmann menentukan tingkat mana yang terisi, dan **aturan seleksi** menentukan lompatan mana yang diizinkan. *[7.2 dtk]* **[jeda 0.7 dtk]**
+`09:44.1` `recap-03` Faktor Boltzmann menentukan tingkat mana yang terisi, dan **aturan seleksi** menentukan lompatan mana yang diizinkan. *[7.2 dtk]* **[jeda 0.7 dtk]**
 
-`09:51.4` `recap-04` Cabang P dan R, isotop, Raman, dan Franck–Condon semuanya **terbaca dari spektrum.** *[5.3 dtk]* **[jeda 0.7 dtk]**
+`09:52.0` `recap-04` Cabang P dan R, isotop, Raman, dan Franck–Condon semuanya **terbaca dari spektrum.** *[5.3 dtk]* **[jeda 0.7 dtk]**
 
-`09:57.4` `recap-05` Dengan itu kita membaca napas, awan antarbintang, dan **atmosfer planet lain.** *[4.9 dtk]* **[jeda 0.7 dtk]**
+`09:58.0` `recap-05` Dengan itu kita membaca napas, awan antarbintang, dan **atmosfer planet lain.** *[4.9 dtk]* **[jeda 0.7 dtk]**
 
-`10:03.0` `recap-06` Ini **akhir perjalanan** kimia kuantum semester ini. Terima kasih sudah ikut menari bersama molekul. *[7.4 dtk]* **[jeda 1.0 dtk]**
+`10:03.6` `recap-06` Ini **akhir perjalanan** kimia kuantum semester ini. Terima kasih sudah ikut menari bersama molekul. *[7.4 dtk]* **[jeda 1.0 dtk]**
 
-## 10:13 — Penutup
+## 10:14 — Penutup
 
 *(tanpa narasi · 15.0 dtk · musik saja)*
