@@ -126,7 +126,7 @@ export const Selection: React.FC = () => {
 
         {/* judul bagian */}
         {heads.map(([p, txt, col], i) => (
-          <Label key={i} x={960} y={112 - (1 - p) * 10} size={44} weight={700} color={col} opacity={p}>
+          <Label key={i} x={960} y={160 - (1 - p) * 10} size={40} weight={700} color={col} opacity={p}>
             {txt}
           </Label>
         ))}

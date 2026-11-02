@@ -83,10 +83,10 @@ export const Title: React.FC = () => {
   const line = ramp(t, 1.8, 3.2, EASE_IN_OUT);
   const flashP = ramp(t, 3.6, 5.2);
   // CO₂ kiri: berputar (rotasi) sambil meregang tak simetris (vibrasi)
-  const camL: Cam = {cx: 250, cy: 540, s: 120, yaw: 0.3, pitch: -0.4};
+  const camL: Cam = {cx: 165, cy: 610, s: 100, yaw: 0.3, pitch: -0.4};
   const leftItems = molItems3(camL, vibrate(place(CO2M, (v) => rotZ(v, t * 0.9)), CO2A, 0.12, t * 8), {labels: false});
   // H₂O kanan: menekuk dan berputar pelan
-  const camR: Cam = {cx: 1680, cy: 540, s: 150, yaw: 0.6 + t * 0.35, pitch: -0.25};
+  const camR: Cam = {cx: 1755, cy: 610, s: 125, yaw: 0.6 + t * 0.35, pitch: -0.25};
   const rightItems = molItems3(camR, vibrate(H2OM, H2OB, 0.1, t * 7), {labels: false});
   const strip = ramp(t, 0.8, 3.4, EASE_IN_OUT);
   return (
