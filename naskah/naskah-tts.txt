@@ -1,6 +1,6 @@
 hook-00	Sekitar tujuh ratus tahun cahaya dari Bumi, sebuah planet raksasa melintas di depan bintangnya.
 hook-01	Cahaya bintang menembus atmosfer planet itu, dan sebagian warnanya hilang.
-hook-02	Dari celah-celah gelap itu, teleskop Jems Webb membaca: di sana ada karbon dioksida dan uap air.
+hook-02	Dari celah-celah gelap itu, teleskop Jems Web membaca: di sana ada karbon dioksida dan uap air.
 hook-03	Tanpa pernah ke sana. Hanya dengan membaca cahaya yang diserap molekul.
 hook-04	Setiap molekul menari dengan tiga cara: bergerak, berputar, dan bergetar. Dan setiap tarian punya warnanya sendiri.
 roadmap-00	Perjalanan kita punya tiga bagian.
