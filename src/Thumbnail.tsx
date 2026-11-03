@@ -8,17 +8,32 @@ const Cover: React.FC = () => (
   <AbsoluteFill style={{background: `radial-gradient(ellipse 70% 70% at 70% 45%, #4a2f0a 0%, ${C.bg2} 45%, ${C.bg} 100%)`}}>
     <Stage>
       <Glow x={1420} y={460} r={560} color="gold" opacity={0.22} />
-      <rect x={1020} y={620} width={800} height={150} rx={12} fill="rgba(6,10,24,0.85)" stroke={C.faint} strokeWidth={3} />
-      {[1310, 1340].map((x) => (
-        <rect key={x} x={x} y={636} width={9} height={118} fill="#ffd23a" opacity={0.95} />
-      ))}
-      <text x={1420} y={810} textAnchor="middle" fontFamily={FONT.mono} fontSize={30} fill={C.muted}>
-        P · R · Raman
+      <rect x={1020} y={430} width={800} height={320} rx={12} fill="rgba(6,10,24,0.85)" stroke={C.faint} strokeWidth={3} />
+      <rect x={1350} y={585} width={8} height={135} fill={C.amber} opacity={0.95} />
+      <rect x={1482} y={585} width={8} height={135} fill={C.amber} opacity={0.95} />
+      <rect x={1310} y={491} width={8} height={229} fill={C.amber} opacity={0.95} />
+      <rect x={1522} y={491} width={8} height={229} fill={C.amber} opacity={0.95} />
+      <rect x={1270} y={460} width={8} height={260} fill={C.amber} opacity={0.95} />
+      <rect x={1562} y={460} width={8} height={260} fill={C.amber} opacity={0.95} />
+      <rect x={1230} y={485} width={8} height={235} fill={C.amber} opacity={0.95} />
+      <rect x={1602} y={485} width={8} height={235} fill={C.amber} opacity={0.95} />
+      <rect x={1190} y={542} width={8} height={178} fill={C.amber} opacity={0.95} />
+      <rect x={1642} y={542} width={8} height={178} fill={C.amber} opacity={0.95} />
+      <rect x={1150} y={604} width={8} height={116} fill={C.amber} opacity={0.95} />
+      <rect x={1682} y={604} width={8} height={116} fill={C.amber} opacity={0.95} />
+      <rect x={1110} y={654} width={8} height={66} fill={C.amber} opacity={0.95} />
+      <rect x={1722} y={654} width={8} height={66} fill={C.amber} opacity={0.95} />
+      <rect x={1070} y={687} width={8} height={33} fill={C.amber} opacity={0.95} />
+      <rect x={1762} y={687} width={8} height={33} fill={C.amber} opacity={0.95} />
+      <line x1={1050} y1={722} x2={1790} y2={722} stroke={C.muted} strokeWidth={3} />
+      <text x={1200} y={480} textAnchor="middle" fontFamily={FONT.mono} fontSize={30} fill={C.muted}>P</text>
+      <text x={1640} y={480} textAnchor="middle" fontFamily={FONT.mono} fontSize={30} fill={C.muted}>R</text>
+      <text x={1420} y={800} textAnchor="middle" fontFamily={FONT.mono} fontSize={30} fill={C.muted}>
+        HCl · vibrasi–rotasi · P · R
       </text>
     </Stage>
     <div style={{position: 'absolute', left: 1080, top: 150, width: 700, textAlign: 'center', fontFamily: FONT.serif, color: C.gold, textShadow: '0 0 40px rgba(255,194,74,0.5)'}}>
-      <span style={{fontSize: 260, fontStyle: 'italic'}}>π</span>
-      <span style={{fontSize: 130, verticalAlign: 'super'}}>*</span>
+      <span style={{fontSize: 150, fontStyle: 'italic'}}>h&nu;</span>
     </div>
     <div style={{position: 'absolute', left: 110, top: 220, width: 900}}>
       <div style={{fontFamily: FONT.mono, fontSize: 30, letterSpacing: 8, color: C.gold}}>KIMIA KUANTUM · SPEKTROSKOPI</div>
